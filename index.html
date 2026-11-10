@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imran Masud | Cybersecurity and Network Engineer, Darwin</title>
+<meta name="description" content="Imran Masud: cybersecurity and network infrastructure professional in Darwin, NT. Master of IT (Cybersecurity), 10+ years running enterprise IT.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛡️%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f2f5f7; --surface:#ffffff; --ink:#142033; --muted:#4d5b6e;
+  --line:#c9d3dd; --accent:#0a6f8f; --accent-soft:#dcecf2;
+  --head:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1824; --surface:#16222f; --ink:#e8eef4; --muted:#a3b2c2;
+    --line:#2b3b4d; --accent:#5cc3e0; --accent-soft:#17323f; color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem}
+nav{padding:1.25rem 0;border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center;font-family:var(--head);font-weight:500}
+nav b{margin-right:auto;font-size:1.1rem}
+nav a{color:var(--ink);text-decoration:none}
+nav a:hover{color:var(--accent)}
+header.hero{padding:4.5rem 0 3.5rem}
+.hero h1{font:700 clamp(2.6rem,7vw,4.8rem)/1.02 var(--head);letter-spacing:-.03em;margin:0 0 1.25rem;max-width:14ch}
+.hero p.lead{font-size:1.25rem;max-width:36rem;margin:0 0 1.75rem;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:.75rem}
+.facts span{background:var(--accent-soft);padding:.35rem .85rem;border-radius:999px;font:500 .95rem var(--head)}
+.btns{margin-top:2rem;display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{font:700 1rem var(--head);padding:.75rem 1.4rem;border-radius:.4rem;text-decoration:none;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--bg)}
+.btn.alt{color:var(--accent)}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.9rem/1.2 var(--head);letter-spacing:-.02em;margin:0 0 1.75rem}
+.about{max-width:40rem}
+/* career path */
+.path{list-style:none;margin:0;padding:0 0 0 2rem;position:relative}
+.path::before{content:"";position:absolute;left:.55rem;top:.6rem;bottom:.6rem;width:2px;background:var(--line)}
+.path li{position:relative;padding-bottom:2.25rem}
+.path li::before{content:"";position:absolute;left:-1.78rem;top:.45rem;width:.85rem;height:.85rem;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.path li:first-child::before{background:var(--accent);animation:pulse 2.4s ease-out 3}
+@keyframes pulse{0%{box-shadow:0 0 0 0 var(--accent)}70%{box-shadow:0 0 0 .7rem transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (prefers-reduced-motion:reduce){.path li:first-child::before{animation:none}html{scroll-behavior:auto}}
+.when{font:500 .95rem var(--head);color:var(--accent)}
+.path h3{font:700 1.2rem/1.3 var(--head);margin:.15rem 0 .1rem}
+.org{color:var(--muted);margin:0 0 .6rem}
+.path ul{margin:0;padding-left:1.1rem;max-width:42rem}
+.path li li{padding:0;margin:.2rem 0}
+.path li li::before{content:none}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:1rem;margin:0 0 1rem;padding:0;list-style:none}
+.metrics li{background:var(--surface);border:1px solid var(--line);border-radius:.5rem;padding:1rem}
+.metrics strong{display:block;font:700 2rem/1 var(--head);color:var(--accent);margin-bottom:.3rem}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:2rem}
+.cols h3{font:700 1.1rem var(--head);margin:0 0 .6rem}
+.cols ul{margin:0;padding-left:1.1rem}
+.cols li{margin:.25rem 0}
+.contact p{max-width:36rem}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
+@media (max-width:520px){header.hero{padding-top:3rem}.path{padding-left:1.6rem}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <b>Imran Masud</b>
+  <a href="#career">Career</a><a href="#skills">Skills</a><a href="#learning">Study and certificates</a><a href="#contact">Contact</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <h1>I keep networks up and locked down.</h1>
+  <p class="lead">Cybersecurity and network infrastructure professional based in Darwin, NT. Over ten years of running enterprise IT, from fibre links to security incident response.</p>
+  <div class="facts">
+    <span>Master of IT (Cybersecurity)</span>
+    <span>ITIL v4</span>
+    <span>Fortinet and MikroTik certified</span>
+    <span>Darwin, NT</span>
+  </div>
+  <div class="btns">
+    <a class="btn main" href="mailto:bd.imranmasud@gmail.com">Email me</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/imran-masud-8abb1148/">View LinkedIn</a>
+  </div>
+</div></header>
+
+<section><div class="wrap about">
+  <h2>About</h2>
+  <p>I started in telecommunications, building fibre optic networks, and moved through corporate IT, ERP support and IoT rollouts before specialising in cybersecurity. I like work where downtime costs real money: I plan for it, monitor for it and fix it fast.</p>
+  <p>I work well with remote and international teams, and I am looking for a systems or security role where I can own the infrastructure and keep improving it.</p>
+</div></section>
+
+<section id="career"><div class="wrap">
+  <h2>Career path</h2>
+  <ol class="path">
+    <li>
+      <span class="when">Jan to Mar 2026</span>
+      <h3>Cybersecurity Intern</h3>
+      <p class="org">MYHeat, South Africa (remote)</p>
+      <ul>
+        <li>Supported vulnerability management: finding, assessing and reducing risks.</li>
+        <li>Helped monitor and respond to security incidents and improve response procedures.</li>
+        <li>Worked to international cybersecurity standards with a global team.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Jan to Feb 2026</span>
+      <h3>Field Service Dispatch Engineer (freelance)</h3>
+      <p class="org">EIL, Darwin NT, on BP's Hammersbatch project</p>
+      <ul>
+        <li>Deployed and maintained mission-critical hardware and network setups.</li>
+        <li>Made sure all dispatched hardware met BP's security and operational standards.</li>
+        <li>Gave rapid on-site and remote support to keep downtime low.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Jul 2020 to Feb 2024</span>
+      <h3>Senior Executive (promoted from Executive)</h3>
+      <p class="org">JUKI Machinery Bangladesh Limited, JUKI Corporation</p>
+      <ul>
+        <li>Rolled out JUKI IoT devices at client sites for machine monitoring and analytics.</li>
+        <li>Standardised asset tracking and managed IT budgets, and audits became easier.</li>
+      </ul>
+      <ul class="metrics" style="margin-top:1rem">
+        <li><strong>99.9%</strong>infrastructure uptime</li>
+        <li><strong>40%</strong>more efficient IT support</li>
+        <li><strong>20%</strong>cost savings</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Sep 2017 to Jul 2020</span>
+      <h3>Executive</h3>
+      <p class="org">Epyllion Style Limited, Bangladesh</p>
+      <ul>
+        <li>Cut downtime by enforcing IT security, updating systems and integrating buyer-recommended software (FAST REACT, GSD, Intellocut).</li>
+        <li>Improved physical security and IT asset management, and helped with budgeting.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Mar 2016 to Aug 2017</span>
+      <h3>IT Specialist</h3>
+      <p class="org">RSPL Health BD Limited, Bangladesh</p>
+      <ul>
+        <li>Cut system downtime by 30% and improved network performance.</li>
+        <li>Supported Office 365, Skype and Dynamics AX 2012 ERP, and improved attendance and access control systems.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Jan 2012 to Mar 2016</span>
+      <h3>Junior Executive, IT Division</h3>
+      <p class="org">Bangladesh Export Import Company Limited (BEXIMCO)</p>
+      <ul>
+        <li>Designed and maintained fibre optic networks for reliability and minimal downtime.</li>
+        <li>Supervised installations and audits with NTTN, telco and subcontractor teams.</li>
+      </ul>
+    </li>
+  </ol>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills</h2>
+  <div class="cols">
+    <div><h3>Security</h3><ul>
+      <li>Vulnerability management</li><li>Incident response</li><li>Entra ID and Active Directory</li><li>Fortinet network security</li></ul></div>
+    <div><h3>Networking</h3><ul>
+      <li>Fibre optic network design</li><li>LAN and WAN support</li><li>MikroTik</li><li>Performance and uptime monitoring</li></ul></div>
+    <div><h3>IT operations</h3><ul>
+      <li>ITIL v4 service management</li><li>Windows and Linux systems</li><li>Office 365 support</li><li>Asset tracking and audit readiness</li><li>IoT device rollouts</li></ul></div>
+  </div>
+</div></section>
+
+<section id="learning"><div class="wrap">
+  <h2>Study and certificates</h2>
+  <div class="cols">
+    <div><h3>Education</h3><ul>
+      <li><b>Master in IT (Cybersecurity)</b>, Charles Darwin University, 2024 to 2026. Thesis: comparing ML, DL and ensemble models for dementia detection.</li>
+      <li><b>BSc Computer Science and Engineering</b>, Northern University Bangladesh, 2018. Thesis: network security systems and cloud computing infrastructure.</li>
+      <li><b>Diploma in Telecommunication Engineering</b>, National Polytechnic, 2013.</li></ul></div>
+    <div><h3>Certificates</h3><ul>
+      <li>ITIL v4 IT Service Management, AXELOS, 2023</li>
+      <li>Certified Network Security Specialist, International Cyber Security Institute (UK), 2023</li>
+      <li>Network Security Associate 1 and 2, Fortinet, 2023</li>
+      <li>MikroTik Certified Network Associate, 2023</li>
+      <li>Scrum Foundation Professional Certificate, 2023</li></ul></div>
+    <div><h3>Community</h3><ul>
+      <li>Won first place in the Northern Territory and placed 17th nationally in the 2024 Missing Person Hackathon.</li>
+      <li>Associate member of ACS, AISA and IEEE.</li>
+      <li>Active in the CDU IT and Cybersecurity Club.</li>
+      <li>Volunteer at the Red Crescent blood donation campaign.</li></ul></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p>Looking for a systems, network or security person in Darwin, or remote? Send me a message and I will reply quickly. I speak Bengali and English fluently, and references are available on request.</p>
+  <p><a href="mailto:bd.imranmasud@gmail.com">bd.imranmasud@gmail.com</a><br>
+  <a href="https://www.linkedin.com/in/imran-masud-8abb1148/">linkedin.com/in/imran-masud-8abb1148</a></p>
+</div></section>
+
+<footer><div class="wrap">© 2026 Imran Masud. Darwin, Northern Territory.</div></footer>
+</body>
+</html>
